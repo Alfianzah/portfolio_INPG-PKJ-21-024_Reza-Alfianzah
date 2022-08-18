@@ -29,6 +29,7 @@ li a:hover {
     background-color: #fff;
 }
 .header{
+    width: 100%;
     top: 2em;
     position: relative;
     height: 570px;
@@ -64,6 +65,7 @@ li a:hover {
     font-family: Arial;
 }
 .profile {
+    width: 100%;
     height: 400px;
     position: relative;
     top: 2em;
@@ -103,6 +105,7 @@ li a:hover {
     font-family: Arial;
 }
 .portfolio {
+    width: 100%;
     top: 2em;
     height: 950px;
     position: relative;
@@ -119,7 +122,8 @@ li a:hover {
     width: 100%;
     margin: 1em;
 }
-.blog {   
+.blog {
+    width: 100%;   
     height: 650px;
     position: relative;
     top: 2em;
@@ -163,7 +167,7 @@ li a:hover {
     width: 100%;
 }
 .team{
-    width: auto;
+    width: 100%;
     height: 400px;
     position: relative;
     top: 2em;
@@ -192,7 +196,7 @@ li a:hover {
     font-family: Arial;
 }
 .contact{
-    width: auto;
+    width: 100%;
     height: 400px;
     position: relative;
     top: 2em;
