@@ -32,9 +32,10 @@ li a:hover {
     width: 100%;
     top: 2em;
     position: relative;
-    height: 570px;
+    height: 550px;
     background-image: url('Gambar/background-img.jpg') ;
 	background-size: cover;
+    background-position: center;
 }
 .header .overlay{
 	position: absolute;
@@ -47,7 +48,7 @@ li a:hover {
 .header .deskripsi{
     position: absolute;
     top: 10%;
-    margin: auto;
+    margin: 2em;
     padding: 2em;
 }
 .header .deskripsi h1{
@@ -70,7 +71,6 @@ li a:hover {
     position: relative;
     top: 2em;
     border-radius: 5px;
-    margin: 3em;
 }
 .profile h1{
 	color:#2293c7;
@@ -80,7 +80,7 @@ li a:hover {
 .profile .picture{
     float: left;
     padding-left: 100px;
-    height: 125x;
+    height: 250px;
     width: 15%;
     border-radius: 50%
 }
@@ -110,7 +110,7 @@ li a:hover {
     height: 950px;
     position: relative;
     border-radius: 5px;
-    margin: 3em;
+
 }
 .portfolio h1{
     color:#2293c7;
@@ -120,7 +120,6 @@ li a:hover {
 .portfolio img{
     height: 15rem;
     width: 100%;
-    margin: 1em;
 }
 .blog {
     width: 100%;   
@@ -128,7 +127,9 @@ li a:hover {
     position: relative;
     top: 2em;
     border-radius: 5px;
-    margin: 4em;
+}
+.blog table{
+    margin: auto;
 }
 .blog h1{
     color:#2293c7;
@@ -172,7 +173,6 @@ li a:hover {
     position: relative;
     top: 2em;
     border-radius: 5px;
-    margin: 3em;
 }
 .team table{
     margin: auto;
@@ -201,7 +201,6 @@ li a:hover {
     position: relative;
     top: 2em;
     border-radius: 5px;
-    margin: 3em;
 }
 .contact table{
     margin: left;
@@ -244,4 +243,17 @@ li a:hover {
     float: left;
     padding-left: 75px;
     padding-top: 23px;
+}
+.footer {
+    width: 100%;
+    top: 3em;
+    height: 40px;
+    position: relative;
+    background-color: #2293c7;
+}
+.footer h5{
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
 }
