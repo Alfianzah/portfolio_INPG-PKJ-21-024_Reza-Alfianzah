@@ -1,0 +1,244 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial;
+    margin: 0;
+}
+.navbar {
+    background-color: #2293c7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 18px 0 grey;
+    z-index: 2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+li a {
+    display: block;
+    color: #f4f4f4;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #2293c7;
+    background-color: #fff;
+}
+.header{
+    top: 2em;
+    position: relative;
+    height: 570px;
+    background-image: url('Gambar/background-img.jpg') ;
+	background-size: cover;
+}
+.header .overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.header .deskripsi{
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    padding: 2em;
+}
+.header .deskripsi h1{
+	color:#2293c7;
+    font-family: "Arial";
+	margin: 2em;
+}
+.header .deskripsi p{
+    margin: 2em;
+	color:#666;
+	font-size: 20px;
+	width: 60%;
+	line-height: 1.5;
+    text-align: justify;
+    font-family: Arial;
+}
+.profile {
+    width: auto;
+    height: 350px;
+    position: relative;
+    top: 2em;
+    border-radius: 5px;
+    margin: 3em;
+}
+.profile h1{
+	color:#2293c7;
+    text-align: center;
+    font-family: Arial;
+}
+.profile .picture{
+    float: left;
+    padding-left: 100px;
+    height: 210px;
+    width: 170px;
+    border-radius: 50%
+}
+.profile .left {
+    width: 65%;
+    float: left;
+    padding-left: 100px;
+}
+.profile .left p{
+	line-height:2;
+	color:#888;
+    text-align: justify;
+    font-family: Arial;
+}
+.profile .left h3{
+    font-family: Arial;
+    color: #2293c7;
+}
+.profile p{
+	line-height:2;
+	color:#888;
+    font-family: Arial;
+}
+.portfolio {
+    height: 950px;
+    position: relative;
+    top: 2em;
+    border-radius: 5px;
+    margin: 3em;
+}
+.portfolio h1{
+    color:#2293c7;
+    font-family: Arial;
+    text-align: center; 
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+.blog {   
+    height: 650px;
+    position: relative;
+    top: 2em;
+    border-radius: 5px;
+    margin: 4em;
+}
+.blog h1{
+    color:#2293c7;
+    text-align: center;
+    font-family: Arial;  
+}
+.blog p{
+	line-height:2;
+	color:#888;
+    text-align: justify;
+    font-family: Arial;
+}
+.blog table{
+    width: 1200px;
+}
+.blog .card{
+	box-shadow: 0 0 15px #ccc;
+    margin-top: 60px;
+    background-color: #fff;
+    width:100%;
+}
+.blog .card img{
+	width: 100%;
+	height: 10em;
+}	
+.blog .card-title{
+	color:#2293c7;
+    width: 100%;
+}
+.blog .card-body{
+	padding: 1em;
+    width: 90%;
+}
+.blog .card-footer{
+	padding: 1em;
+    width: 100%;
+}
+.team{
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 2em;
+    border-radius: 5px;
+    margin: 3em;
+}
+.team table{
+    margin: auto;
+}
+.team h1{
+    color:#2293c7;
+    text-align: center;
+    font-family: Arial;
+}
+.team .item{
+	position: relative;
+	overflow: hidden;	
+}
+.team .des{
+    text-align: center;
+    font-family: Arial;
+}
+.team .text-muted{
+    color:#868e96;
+    text-align: center;
+    font-family: Arial;
+}
+.contact{
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: 2em;
+    border-radius: 5px;
+    margin: 3em;
+}
+.contact table{
+    margin: left;
+}
+.contact h1{
+	padding:2em 1px;
+	color: #2293c7;
+    font-family: Arial; 
+}
+.contact .right{
+	max-width: 600px;
+}
+.contact .btn-secondary{
+	background:  #2293c7;
+	color: #fff;
+    width: 600px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.contact textarea{
+    width: 600px;
+}
+.contact .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+    width: 600px;
+}
+.contact input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.contact .left {
+    float: left;
+    padding-left: 100px;
+}
+.contact .right {
+    float: left;
+    padding-left: 75px;
+    padding-top: 23px;
+}
