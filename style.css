@@ -64,8 +64,7 @@ li a:hover {
     font-family: Arial;
 }
 .profile {
-    width: auto;
-    height: 350px;
+    height: 400px;
     position: relative;
     top: 2em;
     border-radius: 5px;
@@ -79,8 +78,8 @@ li a:hover {
 .profile .picture{
     float: left;
     padding-left: 100px;
-    height: 210px;
-    width: 170px;
+    height: 125x;
+    width: 15%;
     border-radius: 50%
 }
 .profile .left {
@@ -104,9 +103,9 @@ li a:hover {
     font-family: Arial;
 }
 .portfolio {
+    top: 2em;
     height: 950px;
     position: relative;
-    top: 2em;
     border-radius: 5px;
     margin: 3em;
 }
